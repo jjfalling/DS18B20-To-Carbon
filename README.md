@@ -1,7 +1,7 @@
-DS18B20-To-Graphite
+DS18B20-To-Carbon
 ===================
 
-Log data from DS18B20 sensors to graphite using a Raspberry Pi
+Log data from DS18B20 sensors to carbon using a Raspberry Pi
 
 
-Tested on raspbian and xbian with Python 2.7.3
+Tested on raspbian and xbian with python 2.7.3
