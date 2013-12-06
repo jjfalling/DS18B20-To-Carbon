@@ -71,7 +71,7 @@ while True:
         try:
           sock.connect( (CARBON_SERVER,CARBON_PORT) )
         except:
-          print "Couldn't connect to %(server)s on port %(port)d, is carbon-agent.py running?" % { 'server':CARBON_SERVER, 'port':CARBON_PORT }
+          print "Couldn't connect to %(server)s on port %(port)d, is carbon running?" % { 'server':CARBON_SERVER, 'port':CARBON_PORT }
           sys.exit(1)
 
         now = int( time.time() )
