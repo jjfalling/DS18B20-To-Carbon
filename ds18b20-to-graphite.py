@@ -34,12 +34,6 @@ import re
 CARBON_SERVER = '10.10.0.5'
 CARBON_PORT = 2003
 
-#28-00000504c4ca  near pi
-#28-000005056497  radiator
-#28-000005059702  wall
-#28-0000050542cc  below window
-#28-00000505ba75  next to servers
-
 
 delay = 20
 if len(sys.argv) > 1:
