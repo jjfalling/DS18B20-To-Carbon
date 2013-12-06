@@ -30,7 +30,8 @@ import subprocess
 from socket import socket
 import re
 
-CARBON_SERVER = '192.168.15.22'
+#change this to your carbon server and port
+CARBON_SERVER = '10.10.0.5'
 CARBON_PORT = 2003
 
 #28-00000504c4ca  near pi
